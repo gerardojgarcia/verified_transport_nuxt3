@@ -8,31 +8,31 @@ export default {
           id: 1,
           img: '/img/',
           name: 'Anisha Li',
-          quote: 'Manage has supercharged our team\'s workflow. The ability to maintain visibilty on larger milestones at all times keeps everyone motivated.'
+          quote: 'Verified has supercharged our team\'s workflow. The ability to maintain visibilty on larger milestones at all times keeps everyone motivated.'
         },
         {
           id: 1,
           img: '/img/',
           name: 'Anisha Li',
-          quote: 'Manage has supercharged our team\'s workflow. The ability to maintain visibilty on larger milestones at all times keeps everyone motivated.'
+          quote: 'Verified has supercharged our team\'s workflow. The ability to maintain visibilty on larger milestones at all times keeps everyone motivated.'
         },
         {
           id: 1,
           img: '/img/',
           name: 'Anisha Li',
-          quote: 'Manage has supercharged our team\'s workflow. The ability to maintain visibilty on larger milestones at all times keeps everyone motivated.'
+          quote: 'Verified has supercharged our team\'s workflow. The ability to maintain visibilty on larger milestones at all times keeps everyone motivated.'
         },
         {
           id: 1,
           img: '/img/',
           name: 'Anisha Li',
-          quote: 'Manage has supercharged our team\'s workflow. The ability to maintain visibilty on larger milestones at all times keeps everyone motivated.'
+          quote: 'Verified has supercharged our team\'s workflow. The ability to maintain visibilty on larger milestones at all times keeps everyone motivated.'
         },
         {
           id: 1,
           img: '/img/',
           name: 'Anisha Li',
-          quote: 'Manage has supercharged our team\'s workflow. The ability to maintain visibilty on larger milestones at all times keeps everyone motivated.'
+          quote: 'Verified has supercharged our team\'s workflow. The ability to maintain visibilty on larger milestones at all times keeps everyone motivated.'
         },
 
       ]
