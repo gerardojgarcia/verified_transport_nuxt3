@@ -18,20 +18,20 @@ export default {
         <!--Logo-->
         <div>
 
-          <img src="./img/verified_logo_white.svg" class="img-responsive" alt="" width="300px" height="300px">
+          <img src="/imgs/verified_logo_white.svg" class="img-responsive" alt="" width="300px" height="300px">
         </div>
 
         <!--Soial-->
 
         <div class="flex justify-center space-x-4">
           <a href="">
-            <img src="./img/icon-facebook.svg" alt="" class="h-8">
+            <img src="/imgs/icon-facebook.svg" alt="" class="h-8">
           </a>
           <a href="">
-            <img src="./img/icon-twitter.svg" alt="" class="h-8">
+            <img src="/imgs/icon-twitter.svg" alt="" class="h-8">
           </a>
           <a href="">
-            <img src="./img/icon-instagram.svg" alt="" class="h-8">
+            <img src="/imgs/icon-instagram.svg" alt="" class="h-8">
           </a>
         </div>
 

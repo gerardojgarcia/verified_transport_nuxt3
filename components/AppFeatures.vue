@@ -17,11 +17,10 @@ export default {
           What's different about Verified?
         </h2>
         <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
-          Verified Logistics provides all thefuntionality your team needs, without hte cplexiyt. Oursoftware is
+          Verified Logistics provides all the funtionality your team needs, without hte cplexiyt. Oursoftware is
           tailor-made for modern digital teams.
         </p>
         <!--image items-->
-        <div class="md:w-1/2"><img src="./img/pexels-marcin-jozwiak-2800121.jpg" alt=""></div>
       </div>
 
 

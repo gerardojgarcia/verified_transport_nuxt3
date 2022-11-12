@@ -6,31 +6,31 @@ export default {
       testimonials: [
         {
           id: 1,
-          img: '/img/',
+          img: '/imgs/avatar-ali.png',
           name: 'Anisha Li',
           quote: 'Verified has supercharged our team\'s workflow. The ability to maintain visibilty on larger milestones at all times keeps everyone motivated.'
         },
         {
           id: 1,
-          img: '/img/',
+          img: '/imgs/avatar-anisha.png',
           name: 'Anisha Li',
           quote: 'Verified has supercharged our team\'s workflow. The ability to maintain visibilty on larger milestones at all times keeps everyone motivated.'
         },
         {
           id: 1,
-          img: '/img/',
+          img: '/imgs/avatar-richard.png',
           name: 'Anisha Li',
           quote: 'Verified has supercharged our team\'s workflow. The ability to maintain visibilty on larger milestones at all times keeps everyone motivated.'
         },
         {
           id: 1,
-          img: '/img/',
+          img: '/imgs/avatar-shanai.png',
           name: 'Anisha Li',
           quote: 'Verified has supercharged our team\'s workflow. The ability to maintain visibilty on larger milestones at all times keeps everyone motivated.'
         },
         {
           id: 1,
-          img: '/img/',
+          img: '/imgs/',
           name: 'Anisha Li',
           quote: 'Verified has supercharged our team\'s workflow. The ability to maintain visibilty on larger milestones at all times keeps everyone motivated.'
         },

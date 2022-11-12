@@ -9,7 +9,7 @@ export default {
 <template>
 
       <header class="w-full flex flex-row justify-evenly items-center py-6 fixed  backdrop-blur-xl">
-        <img src="/" alt="icon" class="icon">
+        <img src="/imgs/verifiredlogo.png" alt="icon" class="icon">
 <AppNav/>
         <AppHeaderButton/>
       </header>
@@ -20,5 +20,9 @@ export default {
 </template>
 
 <style scoped>
+
+.icon {
+  width: 10rem;
+}
 
 </style>
