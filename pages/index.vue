@@ -2,9 +2,11 @@
 import AppNav from "../components/AppNav";
 import AppTestimonials from "../components/AppTestimonials";
 import AppPricing from "../components/AppPricing";
+import AppFAQ from "../components/AppFAQ";
 export default {
   name: "index",
   components: {
+    AppFAQ,
     AppPricing,
     AppTestimonials,
     AppNav,
@@ -20,7 +22,7 @@ export default {
   <AppCallToAction/>
   <AppTestimonials/>
   <AppPricing/>
-  <AppAbout/>
+  <AppFAQ/>
 </section>
 
 </template>

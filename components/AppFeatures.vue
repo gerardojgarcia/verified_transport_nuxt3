@@ -5,22 +5,24 @@ export default {
 </script>
 
 <template>
+
   <!--Features Section------------------------------------------------>
   <section id="features" class="mb-8  features py-16" >
     <!--flex container-->
     <div class="container flex flex-col px-4 h-1/2 mx-auto mt-10 space-y-12 features-box md:space-y-0 md:flex-row ">
       <!--What's Different-->
 
-      <div class="flex flex-col space-y-12  md:w-1/2 ">
+      <div class="flex flex-col space-y-12  md:w-1/2  p-8">
 
         <h2 class="max-w-md text-4xl font-bold text-center md:text-left">
           What's different about Verified?
         </h2>
-        <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
-          Verified Logistics provides all the funtionality your team needs, without hte cplexiyt. Oursoftware is
+        <p class="max-w-sm text-center text-gray-700 md:text-left">
+          Verified Logistics provides all the functionality your team needs, without hte complexity. Our software is
           tailor-made for modern digital teams.
         </p>
         <!--image items-->
+        <img src="/imgs/pexels-tima-miroshnichenko-6169663.jpg" alt="delivery man moving boxes" class="shadow-3xl rounded-lg -z-10 -translate-x-24 -translate-y-42">
       </div>
 
 
@@ -28,9 +30,9 @@ export default {
       <!--Numbered List-->
       <div class="flex flex-col space-y-8 md:w-1/2">
         <!--list item 1-->
-        <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+        <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row md:rounded-lg md:shadow-lg p-10">
           <!--heading-->
-          <div class="rounded-l-full bg-brightRedSupLight md:bg-transparent">
+          <div class="rounded-l-full bg-gray-100 md:bg-transparent">
 
             <div class="flex items-center space-x-2">
 
@@ -53,7 +55,7 @@ export default {
 
         </div>
         <!--list item 2-->
-        <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+        <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row md:rounded-lg md:shadow-lg p-10">
           <!--heading-->
           <div class="rounded-l-full bg-brightRedSupLight md:bg-transparent">
 
@@ -78,7 +80,7 @@ export default {
 
         </div>
         <!--list item 3-->
-        <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+        <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row md:rounded-lg md:shadow-lg p-10">
           <!--heading-->
           <div class="rounded-l-full bg-brightRedSupLight md:bg-transparent">
 
