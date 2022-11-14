@@ -7,16 +7,32 @@ export default {
       const priceMonthlyEl = document.querySelector('.pricing-monthly')
       const priceYearlyEl = document.querySelector('.pricing-yearly')
 
+      const growthPriceChange = document.getElementById('growth-price')
+
+      const vipPriceChange = document.getElementById('vip-price')
+
       priceMonthlyEl.classList.toggle('selected')
       priceYearlyEl.classList.remove('selected')
+
+      growthPriceChange.innerText = '$200'
+
+      vipPriceChange.innerText = '$500'
     },
     yearlyPrice(){
       const priceYearlyEl = document.querySelector('.pricing-yearly')
       const priceMonthlyEl = document.querySelector('.pricing-monthly')
 
+      const growthPriceChange = document.getElementById('growth-price')
+
+      const vipPriceChange = document.getElementById('vip-price')
+
 
       priceYearlyEl.classList.toggle('selected')
       priceMonthlyEl.classList.remove('selected')
+
+      growthPriceChange.innerText = '$1500'
+
+      vipPriceChange.innerText = '$5000'
 
     }
 
@@ -34,7 +50,7 @@ export default {
     <p class="pricing-subtitle">Whether you're one person trying to get ahead or a big firm trying to take over the world, let us manage your shipping for the ultimate in efficiency.</p>
 <!--PRicing Container Buttons-->
 <div class="button-container border-2 w-auto  rounded-lg self-center ">
-  <button @click="monthlyPrice" class="pricing-monthly py-4 px-4 ">monthly</button>
+  <button @click="monthlyPrice" class="pricing-monthly  selected py-4 px-4 ">monthly</button>
   <button @click="yearlyPrice" class="pricing-yearly py-4 px-4">yearly</button>
 </div>
 
@@ -48,7 +64,7 @@ export default {
     <div class="pricing-card rounded-2xl shadow-md w-1/5 p-8 space-y-6 bg-white">
 
       <div class="pricing-card-header mt-8"><strong class="text-xl">Starter</strong></div>
-      <p class="text-3xl font-regular">$500</p>
+      <p class="text-3xl font-regular">$0</p>
       <p class="pricing-card-description text-sm">Just getting started and need guidance for growth. Get started for free.</p>
 
       <div class="pricing-card-button bg-black rounded-lg text-white font-bold text-sm text-center tracking-tighter py-2 px-24">Get Started For Free</div>
@@ -66,7 +82,7 @@ export default {
     <div class="pricing-card rounded-xl shadow-md w-1/5 p-8 space-y-6 bg-white">
 
       <div class="pricing-card-header mt-8"><strong class="text-xl">Growth</strong></div>
-      <p class="text-3xl font-regular">$1500</p>
+      <p class="text-3xl font-regular " id="growth-price">$200</p>
       <p class="pricing-card-description text-sm">Just getting started and need guidance for growth. Get started for free.</p>
 
       <div class="pricing-card-button bg-black rounded-lg text-white font-bold text-sm tracking-tighter py-2 px-24 text-center">Subscribe</div>
@@ -85,7 +101,7 @@ export default {
     <div class="pricing-card rounded-xl shadow-md w-1/5 p-8 space-y-6 bg-white">
 
       <div class="pricing-card-header mt-8"><strong class="text-xl">Established</strong></div>
-      <p class="text-3xl font-regular">$5000</p>
+      <p class="text-3xl font-regular" id="vip-price">$500</p>
       <p class="pricing-card-description text-sm">Just getting started and need guidance for growth. Get started for free.</p>
 
       <div class="pricing-card-button bg-black rounded-lg text-white font-bold text-sm tracking-tighter py-2 px-24 text-center">Subscribe</div>

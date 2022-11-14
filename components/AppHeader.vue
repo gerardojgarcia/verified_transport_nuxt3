@@ -8,7 +8,7 @@ export default {
 
 <template>
 
-      <header class="w-full flex flex-row justify-evenly items-center py-6 fixed  backdrop-blur-xl">
+      <header class="w-full flex flex-row justify-evenly items-center py-6 fixed  backdrop-blur-xl z-10">
         <img src="/imgs/verifiredlogo.png" alt="icon" class="icon">
 <AppNav/>
         <AppHeaderButton/>

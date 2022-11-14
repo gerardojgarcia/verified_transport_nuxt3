@@ -13,19 +13,19 @@ export default {
         {
           id: 1,
           img: '/imgs/avatar-anisha.png',
-          name: 'Anisha Li',
+          name: 'Rosemary Smeckle',
           quote: 'Verified has supercharged our team\'s workflow. The ability to maintain visibilty on larger milestones at all times keeps everyone motivated.'
         },
         {
           id: 1,
           img: '/imgs/avatar-richard.png',
-          name: 'Anisha Li',
+          name: 'Robert Logue',
           quote: 'Verified has supercharged our team\'s workflow. The ability to maintain visibilty on larger milestones at all times keeps everyone motivated.'
         },
         {
           id: 1,
           img: '/imgs/avatar-shanai.png',
-          name: 'Anisha Li',
+          name: 'Jennifer Little',
           quote: 'Verified has supercharged our team\'s workflow. The ability to maintain visibilty on larger milestones at all times keeps everyone motivated.'
         },
         {
