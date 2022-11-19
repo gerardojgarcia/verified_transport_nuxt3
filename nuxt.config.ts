@@ -15,8 +15,11 @@ modules:[
                     name: 'description', content: 'My amazing site.'
                 }
             ],
+            link: [
+                {rel: 'icon', type: "image/x-icon", href: '/favicon.ico'}
+            ]
 
-        },
+},
         pageTransition: {name: 'page', mode: 'out-in'}
 
     }

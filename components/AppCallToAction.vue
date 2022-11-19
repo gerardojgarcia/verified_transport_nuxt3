@@ -18,18 +18,17 @@ export default {
 
 
       <!--heading-->
-      <h2 class="text-5xl font-bold lead-tight text-center text-white md:text-4xl md:max-w-xl md:text-left">
+        <div class=" ">
+        <h2 class="text-3xl font-bold lead-tight text-center text-white pb-16 md:text-6xl md:max-w-xl md:text-left ">Simplify your shipping solution</h2>
+        <strong class="text-white font-normal text-lg">It only takes a minute to get a quote</strong>
+          </div >
 
-        Simplify your shipping solution
+        <!--button-->
+        <div class="my-16">
 
-      </h2>
-
-      <!--button-->
-      <div class="my-16">
-
-       <AppButton to="'/quote" link="Get Started"/>
+         <AppButton to="'/quote" link="Get a Quote"/>
+        </div>
       </div>
-    </div>
 
 
 

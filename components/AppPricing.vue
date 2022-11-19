@@ -47,7 +47,7 @@ export default {
 
   <div class="pricing-header text-center space-y-8 mb-16 flex flex-col">
     <strong class="text-4xl font-normal tracking-tighter">Flat pricing, no management fees.</strong>
-    <p class="pricing-subtitle">Whether you're one person trying to get ahead or a big firm trying to take over the world, let us manage your shipping for the ultimate in efficiency.</p>
+    <p class="pricing-subtitle text-lg text-gray-600 w-1/2 m-auto">Whether you're one person trying to get ahead or a big firm trying to take over the world, let us manage your shipping for the ultimate in efficiency.</p>
 <!--PRicing Container Buttons-->
 <div class="button-container border-2 w-auto  rounded-lg self-center ">
   <button @click="monthlyPrice" class="pricing-monthly  selected py-4 px-4 ">monthly</button>

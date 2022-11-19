@@ -8,12 +8,16 @@ export default {
   <!--FAQ section-->
   <section>
 
+<!--FAQ header-->
 
     <div class="faq-header text-left pl-60 space-y-2 pt-40">
         <strong class="faq-title text-3xl font-normal">Frequently Asked Questions</strong>
       <p class="faq-subtitle text-gray-500">If you have anything else you want to ask, reach out to us.</p>
 
       </div>
+
+
+
       <!--Container for individual questions-->
 
 <div class="faq-card-container grid grid-cols-3 px-52 pb-16">
