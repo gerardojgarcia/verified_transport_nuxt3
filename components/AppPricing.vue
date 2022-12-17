@@ -43,7 +43,7 @@ export default {
 </script>
 
 <template>
-<section class="bg-gray-100 py-24">
+<section class="bg-gray-100 py-24" data-aos="fade-up" data-aos-duration="300">
 
   <div class="pricing-header text-center space-y-8 mb-16 flex flex-col">
     <strong class="text-4xl font-normal tracking-tighter">Flat pricing, no management fees.</strong>
@@ -58,7 +58,7 @@ export default {
 
   <!--Pricing Card Flex Container-->
 
-  <div class="pricing-card-container w-full px-58 space-x-8 flex flex-row justify-center">
+  <div class="pricing-card-container w-full px-58 space-x-8 flex flex-row justify-center" data-aos="zoom-in-up" data-aos-duration="700">
 
 <!--Pricing Card-->
     <div class="pricing-card rounded-2xl shadow-md w-1/5 p-8 space-y-6 bg-white">

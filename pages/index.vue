@@ -20,8 +20,9 @@ export default {
   <AppHero/>
   <AppFeatures/>
   <AppCallToAction/>
-  <AppTestimonials/>
   <AppPricing/>
+  <AppTestimonials/>
+
   <AppFAQ/>
 </section>
 

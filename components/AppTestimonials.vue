@@ -49,7 +49,7 @@ export default {
   <section id="testimonial">
     <!--testimonial container and testimonial divs-->
 
-    <div class="w-full  px-32 mx-auto mt-32 mb-8 text-center h-3/4">
+    <div class="w-full  px-32 mx-auto mt-32 mb-8 text-center h-3/4" data-aos="fade-up">
       <h2 class="text-4xl font-bold text-center">
 
         Our Success Stories
@@ -58,11 +58,11 @@ export default {
       </h2>
 
       <!--Testimonial Container-->
-      <div class="flex flex-col  md:flex-row mt-24  md:flex-wrap w-full md:justify-center md:space-evenly "   >
+      <div class="flex flex-col  md:flex-row mt-24  md:flex-wrap w-full md:justify-center md:space-evenly "  data-aos="fade-up" >
 
 
 
-          <AppTestimonialsCard :testimonials="testimonials" />
+          <AppTestimonialsCard :testimonials="testimonials"  />
 
 
 
@@ -71,12 +71,7 @@ export default {
       </div>
       <!--Button-->
 
-      <div class="my-16">
 
-        <a href="#"
-           class="p-3 px-6 pt-2 text-white bg-blue-600 rounded-full baseline hover:bg-brightRedLight">Get
-          Started</a>
-      </div>
     </div>
   </section>
 

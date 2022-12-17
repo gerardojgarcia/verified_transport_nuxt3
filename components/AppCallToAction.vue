@@ -12,7 +12,7 @@ export default {
     <!--container-->
 
     <div
-        class="container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12  md:flex-row md:space-y-0 md:h-auto">
+        class="container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12  md:flex-row md:space-y-0 md:h-auto" data-aos="fade-up">
 
 
 

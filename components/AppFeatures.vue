@@ -9,10 +9,10 @@ export default {
   <!--Features Section------------------------------------------------>
   <section id="features" class="mb-8  features py-16" >
     <!--flex container-->
-    <div class="container flex flex-col px-4 h-1/2 mx-auto mt-10 space-y-12 features-box md:space-y-0 md:flex-row ">
+    <div class="container flex flex-col px-4 h-1/2 mx-auto mt-10 space-y-12 features-box md:space-y-0 md:flex-row " data-aos="fade-up">
       <!--What's Different-->
 
-      <div class="flex flex-col space-y-12  md:w-1/2  p-8">
+      <div class="flex flex-col space-y-12  md:w-1/2  p-8" data-aos="fade-right" data-aos-delay="500">
 
         <h2 class="max-w-md text-4xl font-bold text-center md:text-left">
           What's different about Verified?
@@ -22,7 +22,9 @@ export default {
           tailor-made for modern digital teams.
         </p>
         <!--image items-->
-        <img src="/imgs/pexels-tima-miroshnichenko-6169663.jpg" alt="delivery man moving boxes" class="shadow-3xl rounded-lg -z-10 -translate-x-24 -translate-y-42">
+        <div class="app-features-img" data-aos="fade-up" data-aos-delay="550">
+          <img src="/imgs/pexels-tima-miroshnichenko-6169663.jpg" alt="delivery man moving boxes" class="  shadow-3xl rounded-lg -z-10 -translate-x-24 -translate-y-42">
+        </div>
       </div>
 
 
@@ -30,7 +32,7 @@ export default {
       <!--Numbered List-->
       <div class="flex flex-col space-y-8 md:w-1/2">
         <!--list item 1-->
-        <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row md:rounded-lg md:shadow-lg p-10">
+        <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row md:rounded-lg md:shadow-lg p-10" data-aos="fade-up">
           <!--heading-->
           <div class="rounded-l-full bg-gray-100 md:bg-transparent">
 
@@ -48,14 +50,14 @@ export default {
           <div>
             <h3 class="hidden mb-4 text-lg font-bold md:block">Track Fleet Wide Progress</h3>
             <p class="text-darkGrayishBlue">See how your day-to-day taks fit into the widder
-              vission. Go
+              vision. Go
               from tracking progress at the milestone level al the way down to the smallest of
               details. Never lose sight of the bigger picture. </p>
           </div>
 
         </div>
         <!--list item 2-->
-        <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row md:rounded-lg md:shadow-lg p-10">
+        <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row md:rounded-lg md:shadow-lg p-10" data-aos="fade-up">
           <!--heading-->
           <div class="rounded-l-full bg-brightRedSupLight md:bg-transparent">
 
@@ -80,7 +82,7 @@ export default {
 
         </div>
         <!--list item 3-->
-        <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row md:rounded-lg md:shadow-lg p-10">
+        <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row md:rounded-lg md:shadow-lg p-10" data-aos="fade-up" data-aos-delay="300">
           <!--heading-->
           <div class="rounded-l-full bg-brightRedSupLight md:bg-transparent">
 
@@ -108,5 +110,13 @@ export default {
 </template>
 
 <style scoped>
+
+.app-features-img::after {
+
+  border: 1px solid dodgerblue;
+  transform: translateX(4rem);
+
+
+}
 
 </style>
