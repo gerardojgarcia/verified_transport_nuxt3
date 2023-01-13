@@ -1,0 +1,57 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "",
+      "email": "",
+      "address": "",
+      "package-quantity": "",
+      "package-frequency": "",
+      "package-pickup-date": ""
+    },
+    {
+      "address": "CA",
+      "package-quantity": "25",
+      "package-frequency": "3",
+      "package-pickup-date": "2023-01-13T13:40",
+      "id": 2
+    },
+    {
+      "address": "CA",
+      "package-quantity": "25",
+      "package-frequency": "3",
+      "package-pickup-date": "2023-01-13T13:40",
+      "id": 3
+    },
+    {
+      "name": "Jenny",
+      "street": "4756 Dozier St",
+      "city": "los angeles",
+      "state": "CA",
+      "package-quantity": "30",
+      "package-frequency": "25",
+      "package-pickup-date": "2023-01-17T14:30",
+      "id": 4
+    },
+    {
+      "name": "Jenny",
+      "street": "4756 Dozier St",
+      "city": "los angeles",
+      "state": "CA",
+      "package-quantity": "30",
+      "package-frequency": "25",
+      "package-pickup-date": "2023-01-17T14:30",
+      "id": 5
+    },
+    {
+      "name": "Jenny",
+      "street": "4756 Dozier St",
+      "city": "los angeles",
+      "state": "CA",
+      "package-quantity": "30",
+      "package-frequency": "25",
+      "package-pickup-date": "2023-01-17T14:30",
+      "id": 6
+    }
+  ]
+}
