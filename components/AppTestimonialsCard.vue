@@ -12,13 +12,13 @@ export default {
 <template>
   <!--Testimonial -->
 
-  <div class=" testimonial-card flex  md:p-8 md:mx-4 my-4 rounded-lg bg-white md:w-1/5 shadow-lg hover:shadow-xl hover:-translate-y-1  cursor-pointer animate-bounce-custom hover:animate-none" v-for="testimonials in testimonials" data-aos="zoom-in-up" data-aos-duration="700">
+  <div class=" testimonial-card flex w-full md:p-8 md:mx-4 my-4 rounded-lg bg-white md:w-1/5 shadow-lg hover:shadow-xl hover:-translate-y-1  cursor-pointer animate-bounce-custom hover:animate-none" v-for="testimonials in testimonials" data-aos="zoom-in-up" data-aos-duration="700">
   <div class="flex flex-col space-y-8 items-center py-16 ">
-    <img :src="testimonials.img" class="w-24 mt-2" alt="img of testimonial">
+    <img :src="testimonials.img" class="w-24 mt-2 overflow-hidden" alt="img of testimonial">
 
-    <h5 class="text-lg font-bold">{{ testimonials.name }}</h5>
+    <strong class="text-lg font-bold">{{ testimonials.name }}</strong>
 
-    <p class="text-sm text-black">
+    <p class="text-sm text-black px-6">
       "{{  testimonials.quote }}"
     </p>
   </div>

@@ -1,4 +1,6 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
+
+
 export default defineNuxtConfig({
 modules:[
     '@nuxtjs/tailwindcss',
@@ -12,16 +14,27 @@ modules:[
             title: 'Verified Transport',
             meta: [
                 {
-                    name: 'description', content: 'My amazing site.'
+                    name: 'Verified Transport', content: "San Bernardino's first choice for same-day, cargo van delivery."
                 }
             ],
             link: [
                 {rel: 'icon', type: "image/x-icon", href: '/favicon.ico'}
-            ]
+            ],
+            htmlAttrs: {
+				lang: 'en',
+			  },
 
 },
-        pageTransition: {name: 'page', mode: 'out-in'}
 
-    }
+    
+       
+
+    },
+    nitro: {
+		compressPublicAssets: true,
+		prerender: {
+			crawlLinks: true,
+		}
+	},
 
 })

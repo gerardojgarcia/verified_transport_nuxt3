@@ -45,9 +45,9 @@ export default {
 <template>
 <section class="bg-gray-100 py-24" data-aos="fade-up" data-aos-duration="300">
 
-  <div class="pricing-header text-center space-y-8 mb-16 flex flex-col">
+  <div class="pricing-header text-center space-y-8 px-4 mb-16 flex flex-col">
     <strong class="text-4xl font-normal tracking-tighter">Flat pricing, no management fees.</strong>
-    <p class="pricing-subtitle text-lg text-gray-600 w-1/2 m-auto">Whether you're one person trying to get ahead or a big firm trying to take over the world, let us manage your shipping for the ultimate in efficiency.</p>
+    <p class="pricing-subtitle text-lg text-gray-600 md:w-1/2 m-auto">Whether you're one person trying to get ahead or a big firm trying to take over the world, let us manage your shipping for the ultimate in efficiency.</p>
 <!--PRicing Container Buttons-->
 <div class="button-container border-2 w-auto  rounded-lg self-center ">
   <button @click="monthlyPrice" class="pricing-monthly  selected py-4 px-4 ">monthly</button>
@@ -58,12 +58,12 @@ export default {
 
   <!--Pricing Card Flex Container-->
 
-  <div class="pricing-card-container w-full px-58 space-x-8 flex flex-row justify-center" data-aos="zoom-in-up" data-aos-duration="700">
+  <div class="pricing-card-container w-full p-6 md:px-58 space-y-16 md:space-x-8 md:space-y-0 flex flex-col md:flex-row justify-center" data-aos="zoom-in-up" data-aos-duration="700">
 
 <!--Pricing Card-->
-    <div class="pricing-card rounded-2xl shadow-md w-1/5 p-8 space-y-6 bg-white">
+    <div class="pricing-card rounded-2xl p-6 py-16 shadow-md w-full md:w-1/5 md:py-6 md:p-8 space-y-6 bg-white">
 
-      <div class="pricing-card-header mt-8"><strong class="text-xl">Starter</strong></div>
+      <div class="pricing-card-header mt-8"><strong class="text-2xl md:text-xl">Starter</strong></div>
       <p class="text-3xl font-regular">$0</p>
       <p class="pricing-card-description text-sm">Just getting started and need guidance for growth. Get started for free.</p>
 
@@ -79,7 +79,9 @@ export default {
 
 
     </div>
-    <div class="pricing-card rounded-xl shadow-md w-1/5 p-8 space-y-6 bg-white">
+
+
+    <div class="pricing-card rounded-2xl p-6 py-16 shadow-md w-full md:w-1/5 md:py-6 md:p-8 space-y-6 bg-white">
 
       <div class="pricing-card-header mt-8"><strong class="text-xl">Growth</strong></div>
       <p class="text-3xl font-regular " id="growth-price">$200</p>
@@ -98,7 +100,7 @@ export default {
 
 
     </div>
-    <div class="pricing-card rounded-xl shadow-md w-1/5 p-8 space-y-6 bg-white">
+    <div class="pricing-card rounded-2xl p-6 py-16 shadow-md w-full md:w-1/5 md:py-6 md:p-8 space-y-6 bg-white">
 
       <div class="pricing-card-header mt-8"><strong class="text-xl">Established</strong></div>
       <p class="text-3xl font-regular" id="vip-price">$500</p>

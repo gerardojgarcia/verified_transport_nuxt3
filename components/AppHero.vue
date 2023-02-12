@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-<section class="hero w-full flex flex-col justify-center  pb-52 pt-10" data-aos="fade-up" data-aos-duration="500">
+<section class="hero w-full flex flex-col justify-center px-6 pb-52 pt-32 md:pt-10" data-aos="fade-up" data-aos-duration="500">
     <div class="flex flex-col md:flex-row w-full items-center ">
   <!--Hero Info Container-->
       <div class=" w-full md:w-1/2 md:p-12 pb-8" data-aos="fade-right">

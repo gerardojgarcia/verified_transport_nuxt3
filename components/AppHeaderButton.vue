@@ -6,7 +6,7 @@ export default {
 
 <template>
 <div>
-  <NuxtLink to="/quote" class="header-btn w-24 p-2 bg-blue-700 text-white rounded-full text-center shadow-md hover:shadow-xl hover:bg-blue-500">Get Started</NuxtLink>
+  <NuxtLink to="/quote" class="header-btn hidden md:inline w-24 p-2 bg-blue-700 text-white rounded-full text-center shadow-md hover:shadow-xl hover:bg-blue-500">Get Started</NuxtLink>
 </div>
 </template>
 

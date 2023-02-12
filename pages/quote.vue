@@ -35,40 +35,30 @@ form.addEventListener('submit', e => {
 
 
 
-  <section class="">
+  <div class="">
     <div class="form-container pt-32 grid place-items-center pb-32">
     
     <form action="submit" class="flex flex-col border-0 border-black p-16 w-1/4 space-y-3 rounded-xl text-left justify-center shadow-lg">
 
     <strong class="text-black text-5xl">Get A Quote</strong>
 
-    <label for="name">Full Name</label>
-      <input type="text" name="name" class="bg-gray-300 rounded-xl p-2  w-3/4" required>
-      <label for="email">Email</label>
-      <input type="email" name="" class="bg-gray-300 rounded-xl p-2  w-3/4" required>
+    <div class="border-2 border-gray-300 flex flex-col rounded-lg space-y-3 p-6">
 
-      <strong class="pt-6">Delivery Address</strong>
-      <label for="address">Street</label>
-      <input type="text" name="street" class="bg-gray-300 rounded-xl p-2  w-3/4" required>
-      <label for="address">City</label>
-      <input type="text" name="city" class="bg-gray-300 rounded-xl p-2  w-3/4" required>
-      <label for="address">State</label>
-      <input type="text" name="state" class="bg-gray-300 rounded-xl p-2  w-1/3" required>
-
-
-<div class="package-quantity-container flex flex-col w-1/3">
-  <label for="package-quantity">How many Packages are you sending?</label>
-  <input class="w-1/2 p-2" type="number" name="package-quantity" id="package-quantity">
+<div class="flex space-x-16">
+  <div class="flex flex-col">
+    <label for="firstname">First Name</label>
+    <input type="text" name="firstname" class="bg-gray-300 rounded-xl p-2  " required>
+  </div>
+  <div class="flex flex-col">
+    <label for="lastname">Last Name</label>
+    <input type="text" name="lastname" class="bg-gray-300 rounded-xl p-2  " required>
+  </div>
 </div>
+<label for="email">Email</label>
+<input type="email" class="bg-gray-300 rounded-xl p-2  w-1/3" required>
+<label for="address">Address</label>
+<input type="text" name="address" class="bg-gray-300 rounded-xl p-2  w-2/3" required>
 
-<div class="package-frequency-container flex flex-col w-1/3">
-  <label for="package-frequency">How often do you ship?</label>
-  <input class="w-1/2 p-2" type="number" name="package-frequency" id="package-frequency">
-</div>
-
-<div class="package-pickup-container flex flex-col w-1/3">
-  <label for="package-pickup-date">Schedule Pickup</label>
-  <input class=" p-2" type="datetime-local" name="package-pickup-date" id="package-pickup-date">
 </div>
 
 
@@ -78,7 +68,7 @@ form.addEventListener('submit', e => {
     
     
     </div>
-  </section>
+  </div>
 
 
 </template>

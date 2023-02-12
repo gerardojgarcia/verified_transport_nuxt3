@@ -16,7 +16,7 @@ export default {
 </script>
 
 <template>
-<section class="overflow-hidden">
+<div class="overflow-hidden">
   <AppHero/>
   <AppFeatures/>
   <AppCallToAction/>
@@ -24,7 +24,7 @@ export default {
   <AppTestimonials/>
 
   <AppFAQ/>
-</section>
+</div>
 
 </template>
 
