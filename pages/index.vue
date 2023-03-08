@@ -18,6 +18,7 @@ export default {
 <template>
 <div class="overflow-hidden">
   <AppHero/>
+  <AppQuote/>
   <AppFeatures/>
   <AppCallToAction/>
   <AppPricing/>

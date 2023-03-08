@@ -13,8 +13,9 @@
     "@nuxtjs/axios": "^5.13.6",
     "@nuxtjs/fontawesome": "^1.1.2",
     "@nuxtjs/tailwindcss": "^6.1.2",
+    "aos": "^2.3.4",
     "nuxt": "3.1.2",
-    "aos": "^2.3.4"
+    "vue-range-slider": "^0.6.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
