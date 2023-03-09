@@ -16,11 +16,6 @@ export default {
   },
 
 
-
-
-
-
-
 };
 </script>
 
@@ -51,14 +46,14 @@ export default {
 
           <div class="form-days space-y-4 flex flex-col">
             <label for="days" class="font-bold text-lg">How many days per week do you need service?</label>
-            <input type="range" name="days" id="days" class="devs w-3/4" min="0" max="30"
+            <input type="range" name="days" id="days" class="devs w-3/4" min="0" max="7"
                    v-model.number="daySliderValue" />
             <p class="days-value text-lg font-bold">{{ daySliderValue }} Days</p>
           </div>
 
 
           <strong class="form-total-title">Total:</strong>
-          <p class="form-total text-2xl font-bold">${{ (devSliderValue * 45) * (hoursSliderValue * daySliderValue) }}
+          <p class="form-total text-2xl font-bold">${{ (devSliderValue * 2.50) * ((hoursSliderValue * 1.05) * daySliderValue) }}
             USD</p>
 
 

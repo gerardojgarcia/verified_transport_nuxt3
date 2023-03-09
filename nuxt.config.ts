@@ -14,7 +14,7 @@ modules:[
             title: 'Verified Transport',
             meta: [
                 {
-                    name: 'Verified Transport', content: "San Bernardino's first choice for same-day, cargo van delivery."
+                    name: 'Verified Transport', content: "Local, last-minute package and specialty item delivery. When fulfillment has to be same day"
                 }
             ],
             link: [
