@@ -20,7 +20,7 @@ export default {
       <!--heading-->
         <div class=" ">
         <h2 class="text-3xl font-bold lead-tight text-center text-white pb-16 md:text-6xl md:max-w-xl md:text-left ">Simplify your shipping solution</h2>
-        <strong class="text-white font-normal text-lg">It only takes a minute to get a quote</strong>
+        <p class="text-white text-center font-normal text-lg">It only takes a minute to get a quote</p>
           </div >
 
         <!--button-->

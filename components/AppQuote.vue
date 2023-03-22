@@ -64,10 +64,10 @@ export default {
 
       </div>
 
-      <div class=" flex  flex-col text-left justify-center w-1/2  px-8 ">
+      <div class=" flex  flex-col text-left pt-32 md:pt-0 justify-center md:w-1/2  px-8 ">
         <h3 class="text-6xl font-bold flex-start" data-aos="fade-right" data-aos-duration="2000">Get a price and start shipping today</h3>
 
-        <p class="text-xl mt-8" data-aos="fade-right" data-aos-duration="2000">
+        <p class="text-xl text-center md:text-left mt-8" data-aos="fade-right" data-aos-duration="2000">
           Our fleet of transit vans are ready to handle your last minute packages
         </p>
 

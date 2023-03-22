@@ -34,11 +34,11 @@ export default {
         <!--list item 1-->
         <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row md:rounded-lg md:shadow-lg p-10" data-aos="fade-up">
           <!--heading-->
-          <div class="rounded-l-full bg-gray-100 md:bg-transparent">
+          <div class="rounded-l-full bg-gray-200 md:bg-transparent">
 
             <div class="flex items-center space-x-2">
 
-              <div class="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed">
+              <div class="px-4 py-2 text-white rounded-full md:py-1 ">
                 01
               </div>
 
@@ -59,7 +59,7 @@ export default {
         <!--list item 2-->
         <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row md:rounded-lg md:shadow-lg p-10" data-aos="fade-up">
           <!--heading-->
-          <div class="rounded-l-full bg-brightRedSupLight md:bg-transparent">
+          <div class="rounded-l-full bg-gray-200 md:bg-transparent">
 
             <div class="flex items-center space-x-2">
 
@@ -84,7 +84,7 @@ export default {
         <!--list item 3-->
         <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row md:rounded-lg md:shadow-lg p-10" data-aos="fade-up" data-aos-delay="300">
           <!--heading-->
-          <div class="rounded-l-full bg-brightRedSupLight md:bg-transparent">
+          <div class="rounded-l-full bg-gray-200 md:bg-transparent">
 
             <div class="flex items-center space-x-2">
 

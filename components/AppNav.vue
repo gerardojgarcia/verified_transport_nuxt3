@@ -20,7 +20,7 @@ export default {
   <nav>
     <ul class="flex flex-row">
     <li><NuxtLink to="/">{{ navLinks[0] }}</NuxtLink></li>
-    <li><NuxtLink to="/quote">{{ navLinks[1] }}</NuxtLink></li>
+    <li><NuxtLink to="/">{{ navLinks[1] }}</NuxtLink></li>
     <li><NuxtLink to="/about">{{ navLinks[2]}}</NuxtLink></li>
     </ul>
   </nav>
