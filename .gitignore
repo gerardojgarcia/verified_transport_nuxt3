@@ -6,3 +6,10 @@ node_modules
 .output
 .env
 dist
+
+# Ignore video files
+*.mp4
+*.avi
+*.mov
+*.flv
+*.wmv

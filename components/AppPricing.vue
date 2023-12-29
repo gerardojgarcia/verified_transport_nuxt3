@@ -58,7 +58,7 @@ export default {
 
   <!--Pricing Card Flex Container-->
 
-  <div class="pricing-card-container w-full p-6 md:px-58 space-y-16 md:space-x-8 md:space-y-0 flex flex-col md:flex-row justify-center" data-aos="zoom-in-up" data-aos-duration="700">
+  <div class="pricing-card-container w-full p-6 md:px-54 space-y-16 md:space-x-8 md:space-y-0 flex flex-col md:flex-row justify-center" data-aos="zoom-in-up" data-aos-duration="700">
 
 <!--Pricing Card-->
     <div class="pricing-card rounded-2xl p-6 py-16 shadow-md w-full md:w-1/5 md:py-6 md:p-8 space-y-6 bg-white">
@@ -67,7 +67,7 @@ export default {
       <p class="text-3xl font-regular">$0</p>
       <p class="pricing-card-description text-sm">Just getting started and need guidance for growth. Get started for free.</p>
 
-      <div class="pricing-card-button bg-black rounded-lg text-white font-bold text-sm text-center tracking-tighter py-2 px-24">Get Started For Free</div>
+      <div class="pricing-card-button bg-black rounded-lg text-white font-bold text-sm text-center tracking-tighter py-2 px-24 cursor-pointer hover:bg-gray-700">Free</div>
 
       <ul>
         <li  class="pricing-list-item">Commission Free Trading        </li>

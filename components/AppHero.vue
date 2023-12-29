@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-<section class="hero w-full flex flex-col justify-center px-6 pb-52 pt-32 md:pt-10" data-aos="fade-up" data-aos-duration="500">
+<section class="hero w-full flex flex-col justify-center px-6 pb-52 pt-32 md:pt-10 overflow-hidden" data-aos="fade-up" data-aos-duration="500">
     <div class="flex flex-col md:flex-row w-full items-center ">
   <!--Hero Info Container-->
       <div class=" w-full md:w-1/2 md:p-12 pb-8" data-aos="fade-right">
@@ -17,11 +17,14 @@ export default {
 
 
       <!--Hero Img -->
-      <img class="shadow-lg" src="/imgs/pexels-tima-miroshnichenko-6169051.jpg" alt="Image of transit vans" height="900px" data-aos="fade-left">
+      <img class="shadow-lg hero-img" src="/pexels-tima-miroshnichenko-6169050.jpg" alt="Image of transit vans" height="900px" data-aos="fade-left">
     </div>
 </section>
 </template>
 
 <style scoped>
 
+.hero-img {
+    max-height: 65vw;
+}
 </style>
