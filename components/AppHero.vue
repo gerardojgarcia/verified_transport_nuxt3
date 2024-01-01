@@ -17,7 +17,7 @@ export default {
 
 
       <!--Hero Img -->
-      <img class="shadow-lg hero-img" src="/pexels-tima-miroshnichenko-6169050.jpg" alt="Image of transit vans" height="900px" data-aos="fade-left">
+      <video class="shadow-lg hero-img" src="/delivery_video.mp4" autoplay loop alt="Image of transit vans" height="900px" data-aos="fade-left"/>
     </div>
 </section>
 </template>

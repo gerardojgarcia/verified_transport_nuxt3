@@ -87,7 +87,7 @@ export default {
       <p class="text-3xl font-regular " id="growth-price">$200</p>
       <p class="pricing-card-description text-sm">Just getting started and need guidance for growth. Get started for free.</p>
 
-      <div class="pricing-card-button bg-black rounded-lg text-white font-bold text-sm tracking-tighter py-2 px-24 text-center">Subscribe</div>
+      <div class="pricing-card-button bg-black rounded-lg text-white font-bold text-sm tracking-tighter py-2 px-24 text-center cursor-pointer hover:bg-gray-700">Subscribe</div>
 
       <ul>
         <li  class="pricing-list-item">Commission Free Trading        </li>
@@ -106,7 +106,7 @@ export default {
       <p class="text-3xl font-regular" id="vip-price">$500</p>
       <p class="pricing-card-description text-sm">Just getting started and need guidance for growth. Get started for free.</p>
 
-      <div class="pricing-card-button bg-black rounded-lg text-white font-bold text-sm tracking-tighter py-2 px-24 text-center">Subscribe</div>
+      <div class="pricing-card-button bg-black rounded-lg text-white font-bold text-sm tracking-tighter py-2 px-24 text-center cursor-pointer hover:bg-gray-700">Subscribe</div>
 
       <ul>
         <li  class="pricing-list-item">Commission Free Trading        </li>

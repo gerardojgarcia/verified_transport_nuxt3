@@ -27,11 +27,11 @@ export default {
           complexity. Our software is tailor-made for modern digital teams.
         </p>
         <!--image items-->
-        <div class="app-features-img overflow-hidden h-80  " data-aos="fade-up" data-aos-delay="550">
+        <div class="app-features-img overflow-hidden h-80 rounded-xl" data-aos="fade-up" data-aos-delay="550">
           <nuxt-img
-            src="/imgs/delivery_2.jpg"
+            src="/delivery_3.jpg"
             alt="delivery man moving boxes"
-            class="shadow-3xl rounded-lg object-bottom"
+            class="shadow-3xl rounded-lg translate-y-54 "
             preload="true"
             width="600px"
 

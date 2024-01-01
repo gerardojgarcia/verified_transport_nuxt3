@@ -7,7 +7,7 @@ export default {
 <template>
   <!--Call to Action-->
 
-  <section id="cta" class="bg-blue-900 shadow-lg py-16">
+  <section id="cta" class="bg-blue-900 shadow-lg py-16 md:px-60">
 
     <!--container-->
 
@@ -26,7 +26,7 @@ export default {
         <!--button-->
         <div class="my-16">
 
-         <AppButton to="'/quote" link="Get a Quote"/>
+         <AppButton to="/quote" link="Get a Quote" class="text-2xl"/>
         </div>
       </div>
 

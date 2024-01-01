@@ -79,7 +79,7 @@ export default {
           <strong class="form-total-title">Total:</strong>
           <p class="form-total text-2xl font-bold">
             ${{ Math.floor((devSliderValue * .55) * (hoursSliderValue * daySliderValue)) }}
-            USD
+             /month
           </p>
 
           <input
